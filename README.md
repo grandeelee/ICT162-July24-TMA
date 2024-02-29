@@ -58,3 +58,17 @@ print((x - y).days)
 ```
 - This is a very good reference for the [datetime module](https://www.w3schools.com/python/python_datetime.asp)
 - Please note that the date is in the format of "3-Apr-2024 10:05"
+
+## Unittest Cases
+- Uploaded test cases for q1 and q2
+- Only works in the folder structure and naming convention as specified in the instructions
+- Tested on Vocareum and Ubuntu
+- To run the test cases, navigate to the folder containing the test cases and run the following command
+```bash
+labsuser@vscode:~/TMASubmission$ chmod +x q1_test
+labsuser@vscode:~/TMASubmission$ ./q1_test
+```
+- The first line of the command is to make the file executable
+- The second line of the command is to run the file
+- The output will be displayed in the terminal
+- Change the file name to q2_test to run the test cases for q2
