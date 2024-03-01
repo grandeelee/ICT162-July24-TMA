@@ -58,6 +58,7 @@ print((x - y).days)
 ```
 - This is a very good reference for the [datetime module](https://www.w3schools.com/python/python_datetime.asp)
 - Please note that the date is in the format of "3-Apr-2024 10:05"
+- Test cases for Question 2 are updated
 
 ## Unittest Cases
 - Uploaded test cases for q1 and q2
