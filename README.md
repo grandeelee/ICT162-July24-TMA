@@ -60,6 +60,23 @@ print((x - y).days)
 - Please note that the date is in the format of "3-Apr-2024 10:05"
 - Test cases for Question 2 are updated
 
+### For Question 3
+- contains `Booking, IndividualBooking, GroupBooking, BookingException`
+### For Question 4
+- contains `TourAgency`
+### For main.py
+- contains the main function to display the menu
+- please include an `init` function to read the data from the csv file and initialize the TourAgency object
+```python
+def main():
+    ta = TourAgency()    
+    init(ta) # read the data from the csv file and initialize the TourAgency object
+    while True:
+        print("<<<< Main Menu >>>>")
+    ...
+```
+- there is no test case for main.py
+- I will run the `main.py` manually to test the code
 ## Unittest Cases
 - Uploaded test cases for q1 and q2
 - Only works in the folder structure and naming convention as specified in the instructions
@@ -73,3 +90,8 @@ labsuser@vscode:~/TMASubmission$ ./q1_test
 - The second line of the command is to run the file
 - The output will be displayed in the terminal
 - Change the file name to q2_test to run the test cases for q2
+### Updates for unittest cases
+- Updated the test cases for and q2 (previously q2_test has a bug in print `__str__` method)
+- Updated the test cases for q3 (deleted one ambiguous test case) 
+- Updated the test cases for q4
+
