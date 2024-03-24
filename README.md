@@ -93,5 +93,5 @@ labsuser@vscode:~/TMASubmission$ ./q1_test
 ### Updates for unittest cases
 - Updated the test cases for and q2 (previously q2_test has a bug in print `__str__` method)
 - Updated the test cases for q3 (deleted one ambiguous test case) 
-- Updated the test cases for q4
+- Updated the test cases for q4 (separation of listed objects with either single newline or double newlines is accepted)
 
